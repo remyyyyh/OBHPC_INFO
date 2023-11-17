@@ -1,0 +1,42 @@
+/sys/devices/system/cpu/cpu2/cache/index0/* :
+
+coherency_line_size  : 64
+id : 2
+level : 1
+number_of_sets : 64
+physical_line_partition : 1
+shared_cpu_list : 2,6
+shared_cpu_map : 44
+size : 48K
+type : Data
+ways_of_assossiativity : 12
+
+
+
+/sys/devices/system/cpu/cpu2/cache/index2/*
+
+coherency_line_size : 64
+id : 2
+level : 2
+number_of_sets : 1024
+physical_line_partition : 1
+shared_cpu_list : 2,6
+shared_cpu_map : 44
+size : 512K
+type : Unified
+ways_of_assossiativity : 8
+
+
+
+/sys/devices/system/cpu/cpu2/cache/index3/*
+
+coherency_line_size : 64
+id : 0
+level : 3
+number_of_sets : 8192
+physical_line_partition : 1
+shared_cpu_list : 0-7
+shared_cpu_map : ff
+size : 6144K
+type : Unified
+ways_of_assossiativity : 12
